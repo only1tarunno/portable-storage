@@ -1,12 +1,17 @@
+
 @media (max-width: 1440px) {
-  .moving-single {
-        padding: 25px 0px 45px 0px!important;
-        margin: 15px!important;
-    }
+    .moving-single {
+          padding: 25px 0px 45px 0px!important;
+          margin: 15px!important;
+      }
+    
 }
 @media (max-width: 1399px){
   .part5-left h2 {
-    margin-top: 53px;
+    margin-top: 53px;  
+}
+.testimonials-box {
+    min-height: 415px;
 }
 }
 @media (max-width: 1199px) {
@@ -17,9 +22,15 @@
     .work-single {
         padding: 0 0px;
     }
+    .testimonials-box {
+        min-height: 505px;
+    }
 }
 
 @media (max-width: 991px) {
+    .testimonials-box {
+        min-height: 390px;
+    }
     .footer-top-right {
         background-color: transparent;
     }
